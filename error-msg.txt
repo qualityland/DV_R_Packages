@@ -1,0 +1,19 @@
+Warning in install.packages :
+  packages ‘cmdstanr’, ‘lixoftConnectors’, ‘PsNR’, ‘qcNvs’, ‘RPac’, ‘survcomp’ are not available for this version of R
+
+Versions of these packages for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
+
+
+-- Configuring incomplete, errors occurred!
+See also "/tmp/RtmpVOje87/R.INSTALL14a297f1b003e/symengine/src/upstream/CMakeFiles/CMakeOutput.log".
+ERROR: configuration failed for package ‘symengine’
+* removing ‘/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0/symengine’
+Warning in install.packages :
+  installation of package ‘symengine’ had non-zero exit status
+ERROR: dependency ‘symengine’ is not available for package ‘nlmixr’
+* removing ‘/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0/nlmixr’
+Warning in install.packages :
+  installation of package ‘nlmixr’ had non-zero exit status
+
