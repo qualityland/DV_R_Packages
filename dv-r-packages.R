@@ -1,3 +1,4 @@
+library(devtools)
 
 # list of packages
 raw <-  read.csv("data/package-names.csv", col.names = c("name"))
@@ -12,6 +13,10 @@ new.pkg <- pkg[!(pkg %in% installed.packages())]
 if (length(new.pkg)) {
   install.packages(new.pkg, repos = "https://cran.rstudio.com")
 }
+
+devtools::install_github("stan-dev/cmdstanr")
+devtools::install_github("UUPharmacometrics/PsNR")
+devtools::install_bioc("survcomp")
 
 
 ip <- installed.packages()
