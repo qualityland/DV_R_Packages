@@ -334,6 +334,11 @@ testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
 "ModelMetrics","ModelMetrics","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","1.2.2.2",NA,"R (>= 3.2.2)","Rcpp, data.table","Rcpp","testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
 "modelr","modelr","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","0.1.8",NA,"R (>= 3.2)","broom, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0), tibble,
 tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.5"
+"mrgsolve","mrgsolve","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","0.11.1",NA,"R (>= 3.1.2), methods","Rcpp (>= 0.12.12), dplyr (>= 0.8.1), magrittr (>= 1.5), tibble
+(>= 2.1.1), rlang (>= 0.3.4), tidyselect (>= 0.2.5), lifecycle,
+glue","Rcpp (>= 0.12.12), RcppArmadillo (>= 0.7.900.2.0), BH (>=
+1.62.0-1)","lattice, testthat, xml2 (>= 1.2.0), rmarkdown, yaml, knitr,
+data.table, pmxTools",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
 "munsell","munsell","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
 "mvna","mvna","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","2.0.1",NA,NA,"lattice",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
 "mvtnorm","mvtnorm","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","1.1-2",NA,"R(>= 3.5.0)","stats, methods",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.5"
@@ -426,6 +431,7 @@ tibble, tidyselect",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
 "quantreg","quantreg","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","5.86",NA,"R (>= 2.6), stats, SparseM","methods, graphics, Matrix, MatrixModels, conquer",NA,"tripack, akima, MASS, survival, rgl, logspline, nor1mix,
 Formula, zoo, R.rsp",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
 "R6","R6","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","2.5.0",NA,"R (>= 3.0)",NA,NA,"knitr, microbenchmark, pryr, testthat, ggplot2, scales",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
+"radarchart","radarchart","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","0.3.1",NA,"R (>= 3.1.2)","htmlwidgets, htmltools, grDevices",NA,"testthat, knitr, rmarkdown, tidyr, shiny",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.5"
 "RApiSerialize","RApiSerialize","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","0.1.0",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.5"
 "rappdirs","rappdirs","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.5"
 "rcmdcheck","rcmdcheck","/home/schmis12/R/x86_64-redhat-linux-gnu-library/4.0","1.3.3",NA,NA,"callr (>= 3.1.1.9000), cli (>= 1.1.0), crayon, desc (>=
