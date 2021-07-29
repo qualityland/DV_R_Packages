@@ -1,7 +1,7 @@
 
 install.packages(c("tidyverse", "devtools", "readxl"))
 
-library(devtools)
+ library(devtools)
 
 devtools::install_github("stan-dev/cmdstanr")
 devtools::install_github("UUPharmacometrics/PsNR")
@@ -27,4 +27,4 @@ if (length(new.pkg)) {
 
 ip <- installed.packages()
 dim(ip)
-write.csv(ip, "data/installed-packages.csv")
+write.csv(ip, "data/2021-07-29_installed-packages.csv")
