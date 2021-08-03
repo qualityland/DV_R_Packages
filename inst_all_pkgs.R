@@ -1,17 +1,19 @@
+# installs all packages from wish list including dependencies
 
+# pre-requisites
 install.packages(c("tidyverse", "devtools", "readxl"))
 
- library(devtools)
+library(devtools)
+library(readxl)
 
+# packages only available on GitHub
 devtools::install_github("stan-dev/cmdstanr")
 devtools::install_github("UUPharmacometrics/PsNR")
 devtools::install_bioc("survcomp")
 devtools::install_bioc("graph")
 devtools::install_bioc("RBGL")
 
-library(readxl)
-
-# list of packages to be installed
+# package wish list
 raw <-  readxl::read_xlsx("../dv/r4/data/2021-07-26_packages_r41.xlsx")
 pkg <- raw$Package
 
