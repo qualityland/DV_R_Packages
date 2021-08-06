@@ -14,7 +14,7 @@ devtools::install_bioc("graph")
 devtools::install_bioc("RBGL")
 
 # package wish list
-raw <-  readxl::read_xlsx("../dv/r4/data/2021-07-26_packages_r41.xlsx")
+raw <-  readxl::read_xlsx("../dv/r4/data/2021-08-06_R_package_wish_list.xlsx")
 pkg <- raw$Package
 
 # Check if packages are not installed and assign the
@@ -29,4 +29,4 @@ if (length(new.pkg)) {
 
 ip <- installed.packages()
 dim(ip)
-write.csv(ip, "data/2021-07-29_installed-packages.csv")
+write.csv(ip, "data/2021-08-06_installed-packages.csv")
