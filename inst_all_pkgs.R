@@ -9,13 +9,21 @@ library(readxl)
 # packages only available on GitHub
 devtools::install_github("stan-dev/cmdstanr")
 devtools::install_github("UUPharmacometrics/PsNR")
+devtools::install_github("RhoInc/safetyexploreR")
+devtools::install_github("gadenbuie/xaringanExtra")
 devtools::install_bioc("survcomp")
 devtools::install_bioc("graph")
 devtools::install_bioc("RBGL")
+devtools::install_bioc("ComplexHeatmap")
+devtools::install_bioc("impute")
+devtools::install_bioc("preprocessCore")
+devtools::install_bioc("AnnotationDbi")
+devtools::install_bioc("GO.db")
+
 
 # package wish list
-raw <-  readxl::read_xlsx("../dv/r4/data/2021-08-06_R_package_wish_list.xlsx")
-pkg <- raw$Package
+raw <-  readxl::read_xlsx("../dv/r4/data/2021-08-23_R_package_wish_list.xlsx")
+pkg <- raw$package
 
 # Check if packages are not installed and assign the
 # names of the not yet packages to the variable new.pkg
@@ -29,4 +37,4 @@ if (length(new.pkg)) {
 
 ip <- installed.packages()
 dim(ip)
-write.csv(ip, "data/2021-08-06_installed-packages.csv")
+write.csv(ip, "data/2021-08-23 _installed-packages.csv")
